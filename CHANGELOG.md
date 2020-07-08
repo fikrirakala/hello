@@ -9,3 +9,7 @@ Initial pre-release
 ### New
 
 * New: color system
+
+### Updated
+
+* Updated: $spacers map
