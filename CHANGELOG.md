@@ -10,3 +10,4 @@ Initial pre-release
 * Updated: $spacers map
 * Updated: $sizes map
 * New: sizing utilities
+* Updated: body color
