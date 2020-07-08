@@ -9,3 +9,4 @@ Initial pre-release
 * New: color system
 * Updated: $spacers map
 * Updated: $sizes map
+* New: sizing utilities
