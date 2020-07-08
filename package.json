@@ -1,0 +1,35 @@
+{
+  "name": "hello",
+  "version": "1.0.0-alpha",
+  "description": "Bootstrap custom theme",
+  "scripts": {
+    "test": "npm run css",
+    "css-compile": "node-sass --source-map true --source-map-contents true -o dist/css/ scss/",
+    "css-minify": "cleancss --source-map --source-map-inline-sources -o dist/css/theme.min.css dist/css/theme.css",
+    "css-prefix": "postcss --replace \"dist/css/*.css\" --use autoprefixer --map",
+    "css": "npm run css-compile && npm run css-minify && npm run css-prefix",
+    "watch": "onchange \"scss/*.scss\" -- npm run css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fikrirakala/hello.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "css",
+    "sass"
+  ],
+  "author": "Fikri Rakala",
+  "license": "Envato Market",
+  "bugs": {
+    "url": "https://github.com/fikrirakala/hello/issues"
+  },
+  "homepage": "https://github.com/fikrirakala/hello#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.4",
+    "clean-css-cli": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "onchange": "^7.0.2",
+    "postcss-cli": "^7.1.1"
+  }
+}
