@@ -17,3 +17,4 @@ Initial pre-release
 * New: custom tables
 * New: .table-striped-odd class
 * New: .table-striped-even class
+* Updated: $btn-link-disabled-color
