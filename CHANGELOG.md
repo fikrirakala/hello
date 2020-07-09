@@ -11,3 +11,4 @@ Initial pre-release
 * Updated: $sizes map
 * New: sizing utilities
 * Updated: body color
+* Updated: components variable
