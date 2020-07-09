@@ -12,3 +12,4 @@ Initial pre-release
 * New: sizing utilities
 * Updated: body color
 * Updated: components variable
+* Updated: typography

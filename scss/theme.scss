@@ -45,3 +45,8 @@
 @import "../node_modules/bootstrap/scss/print";
 
 @import "utilities";
+
+html {
+  // set optimal base size
+  font-size: $font-size-root;
+}
