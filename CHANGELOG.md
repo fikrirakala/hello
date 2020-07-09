@@ -18,3 +18,4 @@ Initial pre-release
 * New: .table-striped-odd class
 * New: .table-striped-even class
 * Updated: $btn-link-disabled-color
+* Updated: forms
