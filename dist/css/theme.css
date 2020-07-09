@@ -200,7 +200,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #9fa6b2;
+  color: #6b7280;
   text-align: left;
   caption-side: bottom; }
 
@@ -1386,11 +1386,11 @@ pre {
   border: 0; }
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgba(0, 0, 0, 0.05); }
+  background-color: #f9fafb; }
 
 .table-hover tbody tr:hover {
   color: #6b7280;
-  background-color: rgba(0, 0, 0, 0.075); }
+  background-color: #f9fafb; }
 
 .table-primary,
 .table-primary > th,
@@ -1939,13 +1939,13 @@ pre {
 .table-active,
 .table-active > th,
 .table-active > td {
-  background-color: rgba(0, 0, 0, 0.075); }
+  background-color: #f9fafb; }
 
 .table-hover .table-active:hover {
-  background-color: rgba(0, 0, 0, 0.075); }
+  background-color: #eaedf1; }
   .table-hover .table-active:hover > td,
   .table-hover .table-active:hover > th {
-    background-color: rgba(0, 0, 0, 0.075); }
+    background-color: #eaedf1; }
 
 .table .thead-dark th {
   color: #fff;
@@ -1953,8 +1953,8 @@ pre {
   border-color: #334157; }
 
 .table .thead-light th {
-  color: #374151;
-  background-color: #e5e7eb;
+  color: #161e2e;
+  background-color: #f9fafb;
   border-color: #e5e7eb; }
 
 .table-dark {
@@ -18422,6 +18422,22 @@ a.text-transparent:hover, a.text-transparent:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #e5e7eb; } }
+
+.table thead th {
+  border-bottom-width: 1px; }
+
+.table tbody + tbody {
+  border-top-width: 1px; }
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 1px; }
+
+.table-striped-odd tbody tr:nth-of-type(odd) {
+  background-color: #f9fafb; }
+
+.table-striped-even tbody tr:nth-of-type(even) {
+  background-color: #f9fafb; }
 
 .w-25 {
   width: 25% !important; }

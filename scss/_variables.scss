@@ -181,3 +181,16 @@ $headings-color:              $gray-900;
 $text-muted:                  $gray-400;
 
 $hr-border-color:             $gray-200;
+
+
+// Tables
+//
+// Customizes the `.table` component with basic values, each used across all table variations.
+
+$table-accent-bg:             $gray-50;
+$table-hover-bg:              $gray-50;
+
+$table-head-bg:               $gray-50;
+$table-head-color:            $gray-900;
+
+$table-caption-color:         $body-color;

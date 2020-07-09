@@ -13,3 +13,7 @@ Initial pre-release
 * Updated: body color
 * Updated: components variable
 * Updated: typography
+* Updated: tables color
+* New: custom tables
+* New: .table-striped-odd class
+* New: .table-striped-even class

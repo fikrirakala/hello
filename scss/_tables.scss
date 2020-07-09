@@ -1,0 +1,46 @@
+//
+// Basic Bootstrap table
+//
+
+.table {
+  thead th {
+    border-bottom-width: $table-border-width;
+  }
+
+  tbody + tbody {
+    border-top-width: $table-border-width;
+  }
+}
+
+
+// Border versions
+//
+// Add or remove borders all around the table and between all the columns.
+
+.table-bordered {
+  thead {
+    th,
+    td {
+      border-bottom-width: $table-border-width;
+    }
+  }
+}
+
+
+// Zebra-striping
+//
+// Default zebra-stripe styles (alternating gray and transparent backgrounds)
+
+.table-striped-odd {
+  tbody tr:nth-of-type(odd) {
+    background-color: $table-accent-bg;
+  }
+}
+
+.table-striped-even {
+  tbody tr:nth-of-type(even) {
+    background-color: $table-accent-bg;
+  }
+}
+
+
